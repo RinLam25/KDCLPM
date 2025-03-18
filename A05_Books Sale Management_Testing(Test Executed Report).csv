@@ -1,0 +1,45 @@
+Test Case ID,Mô t? Test Case,Ch?c n?ng,Tr?ng thái,K?t qu? Th?c thi
+B_01,View full list of books,Books Management,pass,Thành công
+B_02,"Apply filters (e.g., by category, price) to view specific books",Books Management,pass,Thành công
+B_03,View list of books with pagination,Books Management,pass,Thành công
+B_04,View book list when no books are available,Books Management,pass,Thành công
+B_05,Bug not showing detailed view,Books Management,fail,L?i (bug)
+CB_01,Create new book with valid details,Create books,pass,Thành công
+CB_02,Create a book with missing mandatory fields,Create books,pass,Thành công
+CB_03,Create a book with a duplicate title,Create books,pass,Thành công
+UB_01,Update existing book with valid details,Update books,pass,Thành công
+UB_02,Update a book with invalid details,Update books,pass,Thành công
+UB_03,Attempt to update a non-existing book,Update books,pass,Thành công
+DB_01,Successfully delete an existing book,Delete books,pass,Thành công
+DB_02,Attempt to delete a non-existing book,Delete books,pass,Thành công
+DB_03,Error message when trying to delete a book associated with orders,Delete books,pass,Thành công
+O_01,Verify that the user can view all orders,Orders Management,pass,Thành công
+O_02,Filter the order list by date and verify the displayed results,Orders Management,pass,Thành công
+O_03,"Filter the order list by status (Pending, Delivered, Canceled)",Orders Management,pass,Thành công
+O_04,View the status of a specific order and verify the accuracy of information,Order status management,pass,Thành công
+O_05,Change the status of an order and verify that the status has been updated,Order status management,pass,Thành công
+O_06,View the payment status of an order and verify the accuracy of information,Payment status management,pass,Thành công
+O_07,Change the payment status of an order and verify the change,Payment status management,pass,Thành công
+O_08,"View the details of an order and verify the information (books, prices, customer)",Orders Details,pass,Thành công
+O_09,The order address is entered in the correct structure,Orders Details,fail,L?i (bug)
+AC_01,Successfully add an item to the cart,Cart Management,pass,Thành công
+AC_02,Attempt to add an item that is out of stock,Cart Management,fail,L?i (bug)
+RC_01,Successfully remove an item from the cart,Cart Management,pass,Thành công
+RC_02,Attempt to remove an item that is not in the cart,Cart Management,pass,Thành công
+UC_01,Successfully update the quantity of an item in the cart,Cart Management,pass,Thành công
+UC_02,Attempt to set quantity to zero and check if item is removed,Cart Management,pass,Thành công
+VC_01,"View the cart with items and check for correct details (name, price, quantity)",Cart Management,pass,Thành công
+VC_02,View cart after adding/removing items to ensure updates are reflected,Cart Management,pass,Thành công
+NG_01,View full user information,View list of users,fail,L?i (bug)
+NG_02,View user details,View list of users,pass,Thành công
+NG_03,Users cannot view the list,View list of users,pass,Thành công
+NG_04,Show pagination when list is long,View list of users,pass,Thành công
+NG_05,Edit user information,Update user,pass,Thành công
+NG_06,Update user permissions,Update user,pass,Thành công
+NG_07,Update additional information,Update user,pass,Thành công
+NG_08,New permissions are required to be deleted,Delete user,pass,Thành công
+NG_09,Notice before deletion,Delete user,pass,Thành công
+NG_10,Search from multiple roles,Search User,pass,Thành công
+NG_11,Show multiple users if search matches,Search User,pass,Thành công
+NG_12,Decentralize search,Search User,pass,Thành công
+NG_13,Search again,Search User,pass,Thành công
